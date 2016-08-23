@@ -1,0 +1,390 @@
+
+/* ACTIE BANNER */
+.callout {
+  top: 102px;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  text-align: center;
+
+  &.primary {
+    background-color: #039be5;
+  }
+  &.secondary {
+    background-color: #FF8900;
+    text-shadow: 1px 1px #C06700;
+  }
+  &.success {
+    background-color: #25a037;
+  }
+  &.warning {
+    background-color: #29bde7;
+  }
+  &.alert {
+    background-color: #e65465;
+  }
+  h3 {
+    line-height: 2rem;
+  }
+  p {     
+    line-height: 1.5rem;
+    margin-bottom: 0.25rem;
+  }
+  strong {
+    font-size: 1.3rem;
+  }
+  button { color: $white; }
+  .text-stripe {
+    text-decoration: line-through;
+  }
+}
+
+/* HERO SECTION */
+	
+.hero {
+	background-position: center -7rem;
+	background-size: 1920px;
+	background-color: #00141D; 
+	background-repeat: no-repeat;
+	background-image: linear-gradient(
+      rgba(30, 20, 29, 0.2), 
+      rgba(30, 20, 29, 0.2)
+    ),
+	url('../images/rift/ingame-bg.jpg'); 
+
+  
+  &:before {
+    
+    content: '';
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-image:none;
+		/*background-image: linear-gradient(to bottom right,#666666,#414042);*/
+		opacity: .8; 
+    
+	}
+  
+  
+  .container-intro {
+	padding-top: 1.75rem;
+    position: relative;
+ 
+  .slogan {
+	text-align: center;
+	}
+  h1 {
+	margin-bottom: 0;
+	font-size: 3.92rem;
+  }
+  h2 {
+	  font-weight: 300;
+  }
+  h3 {	
+	font-size: 1.4rem;
+  }
+  li {
+	font-size: 1.1rem;
+  }
+  .button.large {
+	  padding-left: 3rem;
+	  padding-right: 3rem;
+  }
+  p {
+	  font-size: 1.5rem;
+  }
+ }
+}
+
+  .included {
+	  padding-top: 12rem;
+  }
+  .included  h3{
+  color: #fff;
+ }
+  .included ul {
+	list-style: none;
+	text-align: left;
+	}
+	.included ul li:before{
+		content: '\f04b \0020';
+		font-family:'FontAwesome';
+		font-weight: bold;
+	}
+	
+.usps {
+    font-weight: 700;
+	padding-top: 13rem;
+}
+.scroll-down {
+	font-size: 2rem;
+}
+
+/* MOBILE CATEGORY SECTION*/
+.container-categories-mobile {
+	a{
+		color: white;
+	}
+	.category{
+		margin: .9375rem 0 1rem;
+		border-bottom: 1px solid #444444;
+	}
+	.category .column{
+		text-align: left;
+	}
+	.category .column i{
+		line-height: 4.125rem;
+		height: 4.125rem;
+		font-size: 1.625rem;
+	}
+	.category .column h3{
+		text-transform: uppercase;
+		font-size: 1.1rem;
+		margin-bottom: 0;
+	}
+	.category .column p{
+		font-weight: lighter;
+		font-size: 0.95rem;
+	}
+}
+
+
+/* DESKTOP CATEGORIE SECTION*/
+.container-categories .column .category {
+	text-align: center;
+	padding: 25px;
+	border-radius: 7px;
+	background-color: #1c2428;
+}
+
+.container-categories{
+	background: #00141D;
+}
+
+.container-categories .column .category h3{
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+
+.container-categories .column .category a, .container-categories .columns .category a{
+	font-weight: 400;
+	font-size: 1.1rem;
+}
+
+.container-categories .column .category .groep-links{
+	text-align: left;
+	margin-left:25%;
+}
+.category p {
+	font-weight: 400;
+}
+
+
+
+/* REVIEW SECTION */
+.testimonial {
+	text-align: center;
+}
+.fa.fa-star, .fa.fa-star-o {	
+	color: #FF8900;
+}
+.testimonial p {
+	color: #dddddd;
+	font-weight: bold;
+	font-size: 0.9rem;
+	text-align: center;
+}
+.testimonial blockquote {
+    position:relative;
+    padding:0.6rem 2rem;
+	border-left: none;
+	font-style: italic;
+	text-align: left;
+	font-weight: 300;
+	color: #eeeeee;
+	background-color: #00141D;
+	border-radius: 7px;
+	margin:0.5rem 0;
+}
+.testimonial blockquote:before, blockquote:after {
+    color: #888888;
+	content:'\f10d';
+    font-family:'FontAwesome';
+    font-size:1.2rem;
+    position:absolute;
+    top:5px;
+    left:8px;
+    display:block;
+}
+.testimonial blockquote:after {
+    content:'\f10e';
+    bottom:0;
+    right:8px;
+    top:auto;
+    left:auto;
+}
+
+
+
+/* VIDEO SECTION */
+.home-video {
+	padding: 0;
+	
+	h4 {
+		text-shadow: 0px 0px 4px #000000;
+	}
+	i {
+		text-shadow: 0px 0px 4px #000000;
+		font-size: 3.5rem;
+	}
+	.parallax {
+		background-image: url("http://192.168.1.14/wordpress/wp-content/themes/FoundationPress/assets/images/rift/home-video-img-bg.jpg");
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.clearfix {
+    display: block;
+	position: relative;
+    margin: 0 auto;
+	padding: 114px 15px 97px 15px;
+	}
+	
+} 
+
+
+
+/* MEDIA QUERIES */
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+
+	
+	/* small only - CALLOUT */
+	.callout {
+		position: static;
+		padding: 4.5em 0.25rem 0 0.25rem;
+		margin: 0;
+		top: 0;
+	}
+	.callout h3 {
+		display: none;
+	}
+	.callout p {
+		font-size: 0.9rem;
+		margin: 0.25rem 0;
+		line-height: 1.3rem;
+	}
+	.callout strong {
+		font-size: 1.1rem;
+	}
+	.close-button{
+		display:none;
+	}
+	
+	/* small only - HERO */
+	section.hero {
+		padding: 0;
+	
+		.container-intro h1, .container-intro h2 {
+			color: #efefef;
+		}
+		.container-intro h1 {
+			padding-bottom:0;
+			padding-top: 0;
+			font-size: 1.53rem;
+			font-weight: bold;
+			text-align: left;
+			margin-bottom: 0;
+			text-shadow: 0px 0px 4px #000;
+		}
+		.container-intro h2 {
+			font-size: 0.78rem;
+			padding-bottom: 9.4rem;
+			text-align: left;
+			text-shadow: 1px 1px 2px #000;
+		}
+		.container-intro h3 {
+			font-size: 1.3rem;
+		}
+		.container-intro li {
+			font-size: 1rem;
+		}
+		.container-intro {
+			background: none;	
+			margin-top: 0;
+			padding-top: 0;
+		}
+		.container-intro .slogan{
+			text-align: center;
+			background-image: url("../images/rift/ingame-bg.jpg");
+			background-size: 130%;
+			padding: 1rem 1rem 0.5rem;
+			background-position: center bottom;
+			background-repeat: no-repeat;
+			background-color: #00141D;
+		}
+		.included {
+			background-color: #00141D;
+			padding-top: 1.5rem;
+			padding-bottom: 0.75rem;
+			text-align: center;
+		}
+		.included ul{
+			list-style: none;
+			width: 18rem;
+			margin: auto;
+		}
+		.included ul li:nth-child(n+4){
+			display:none;
+		}
+		.button.large{
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+	
+}	
+
+/* small only - CATEGORY SECTION */
+
+	section.container-categories-mobile{
+		padding: 0;
+	}
+
+
+/* small only - TESTIMONIAL SECTION */
+	.testimonial {
+		padding: 0 2rem;
+	}
+
+}
+
+
+/* Small & Medium*/
+@media screen and (max-width: 63.9375em) {
+	.hero {
+		background: none;
+	}
+	.hero .container-intro{
+		padding: 0;
+	}
+	.container-intro{
+		background: url('../images/rift/oculus-rift-package.jpg') no-repeat center center;
+		background-size: cover;
+		margin-top: 1rem;
+	}
+	.container-categories{
+		padding: 1rem;
+	}
+	.container-categories .column .category{
+		margin: 0.5rem 0;
+	}
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+	.hero {
+		  height: 55rem;
+	}
+}

@@ -1,0 +1,108 @@
+/* GLOBAL */
+
+.banner-large {
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.cta-bottom {
+	margin-top: 35%;
+}
+.circle-icon-bg
+{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    font-size: 3rem;
+    color: #fff;
+    line-height: 7rem;
+    text-align: center;
+    background-color: #2d2d2d;
+	margin-bottom: 1rem;
+}
+table thead, table tfoot {
+	color: #efefef;
+	background: #444;
+	border: none;
+}
+table tbody {
+	background-color: #666;
+	border: none;
+}
+/* MEDIA QUERIES */
+
+/* small */
+@media only screen and (max-width: 40em) { 
+	.banner-large {
+		background-position: top center;
+		background-size: cover;
+		height: auto;
+	}
+}
+
+/* SECTION */
+.ons-aanbod, .vr-programma, .games, .kosten{
+	padding: 10rem 0;
+}
+
+/* BANNER */
+.kinderfeestje-banner {
+	background-position: center bottom;
+	background-color: #303030; 
+	background-image: linear-gradient(
+      rgba(30, 30, 30, 0.8), 
+      rgba(30, 30, 30, 0.4)
+    ),
+	url('../images/11162739_1701181010125115_1577133636_n.jpg'); 
+}
+.kinderfeestje-banner h1 {
+	padding-top: 15%;
+}
+.kinderfeestje-banner h3 {
+	font-weight: 300;
+	font-size: 1.5rem;
+}
+ 
+/* ONS AANBOD */
+.ons-aanbod {
+	background: #00141D;
+}
+.ons-aanbod h4 {
+	padding-bottom: 6rem;
+}
+
+/*GAMES*/
+.games {
+	padding: 0;
+}
+.video-preview {
+	height: 250px;
+	overflow: hidden;
+	position: relative;
+	padding: 0;
+}
+.video-preview-bg {
+	height: 250px;
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .3;
+    text-align: center;
+    transition: transform .3s, opacity .3s;
+	width: 100%;
+}
+.video-preview:hover .video-preview-bg{
+	opacity: .8;
+    transform: scale(1.1, 1.1);
+}
+.video-preview-text {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: #efefef;
+}
+.video-preview-text i {
+	font-size: 5rem;
+}

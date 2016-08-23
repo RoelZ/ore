@@ -1,0 +1,15 @@
+.levering-banner {
+	background-image: url("../images/rift/features-bg.jpg");
+}
+.levering-intro {
+	padding-bottom: 0;
+}
+ 
+ /* MEDIA QUERIES */
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+	 .levering-content {
+		 padding-top: 0.5rem;
+	 }
+} 
